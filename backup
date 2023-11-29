@@ -1,1 +1,33 @@
 <link rel="stylesheet" href="./css/bootstrap.css">
+
+
+.footer {
+    background:#00000099;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    bottom: 0px;
+    
+    .row{
+        width:100%;
+        margin:1% 0%;
+        padding:0.6% 0%;
+        color:rgb(222, 205, 205);
+        font-size:0.8em;
+        display: inline;
+        bottom: 0;
+
+        a{
+            text-decoration:none;
+            color:rgb(210, 193, 193);
+            transition:0.5s;
+            font-size:2em;
+                margin:0% 1%;
+                
+                
+        }
+    
+    }
+
+}
+
+
