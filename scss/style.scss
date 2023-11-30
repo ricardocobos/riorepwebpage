@@ -17,17 +17,25 @@ body{
 h1{
     color: rgb(0, 0, 0);
 }
+.navegacion {
+    padding: 0 .1rem;
+    width: 100%;
+    height: 20%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
 .nav-bar{
     display: flex;
-    margin-left: 30%;
-    margin-top: 10;
+    margin-left: 40%;
     gap: 10px;
     background-color: red;
     border-radius: 5px;
     z-index: 10;
-    
+    align-items: right;
 }
 
 .item_nav{
@@ -35,6 +43,7 @@ h1{
     color: rgb(0, 0, 0);
     margin: 8px;
     text-decoration: none;
+    align-content: right;
     
 }
 #check_menu, .navegacion label {
